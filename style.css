@@ -730,14 +730,17 @@ footer strong { color: var(--accent); font-weight: 800; }
   .nav-links li { width: 100%; }
 
   .nav-links a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 1rem 1.5rem;
     font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
     border-radius: 0;
     border-bottom: 1px solid rgba(255,255,255,0.07);
     min-height: 52px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    position: static;
   }
 
   .nav-links a.active::after { display: none; }
