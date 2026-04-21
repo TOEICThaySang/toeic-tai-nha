@@ -1,1 +1,163 @@
-<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ETS 2020 – Đề 1 – TOEIC Tại Nhà</title><link rel="stylesheet" href="../style.css"></head><body><nav class="navbar"><a href="../index.html" class="navbar-brand"><div class="brand-icon">📚</div>TOEIC <span>Tại Nhà</span></a><ul class="nav-links"><li><a href="../vocabulary/index.html">Từ Vựng</a></li><li><a href="../grammar/index.html">Ngữ Pháp</a></li><li><a href="../familiarize/index.html">Làm Quen Đề</a></li><li><a href="../practice/index.html" class="active">Luyện Đề</a></li><li><a href="../blog/index.html">Blog</a></li></ul></nav><div class="sub-navbar"><a href="../ets2020/index.html" class="active">ETS 2020</a><a href="../ets2021/index.html">ETS 2021</a><a href="../ets2022/index.html">ETS 2022</a><a href="../ets2023/index.html">ETS 2023</a><a href="../ets2024/index.html">ETS 2024</a></div><div class="breadcrumb"><a href="../../index.html">Trang chủ</a><span>›</span><a href="../index.html">Luyện Đề</a><span>›</span><a href="index.html">ETS 2020</a><span>›</span>Đề 1</div><div class="page-header"><h1>ETS 2020 – Đề 1</h1><p>Đề thi TOEIC thực tế từ bộ ETS 2020</p></div><div class="lesson-content"><h2>📋 Thông tin đề thi</h2><p>Đề thi <strong>ETS 2020 – Số 1</strong> gồm 200 câu chia làm 7 phần (Listening và Reading).</p><h2>🎯 Bắt đầu làm bài</h2><p>Nội dung đề thi và đáp án sẽ được cập nhật. Hãy quay lại sau!</p><div class="nav-btns"><a href="index.html" class="btn btn-primary">← Danh sách ETS 2020</a><a href="index.html" style="color:var(--text-muted);font-weight:700;font-size:0.9rem;">☰ Tất cả đề thi</a><a href="lesson-2.html" class="btn btn-accent">Đề 2 →</a></div></div><footer><p>© 2024 <strong>TOEIC Tại Nhà</strong> – Học TOEIC hiệu quả, miễn phí, mọi lúc mọi nơi 🏠</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Đề 2020-1</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://ets-reading.pages.dev/style.css">
+<script type="module">
+import{initializeApp}from"https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";import{getAuth,signInWithPopup,GoogleAuthProvider,onAuthStateChanged}from"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";import{getFirestore,collection,query,where,getDocs}from"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";var cfg={apiKey:"AIzaSyDnrrXmSaOQMVn1-fUR70BOxWiPk8AmmLk",authDomain:"toeic-tai-nha.firebaseapp.com",projectId:"toeic-tai-nha",storageBucket:"toeic-tai-nha.firebasestorage.app",messagingSenderId:"907983929969",appId:"1:907983929969:web:83d8aeef007918c03311d0"};var app=initializeApp(cfg);var auth=getAuth(app);var db=getFirestore(app);var gprov=new GoogleAuthProvider();async function chkWL(email){var q=query(collection(db,"whitelist"),where("email","==",email));var s=await getDocs(q);return !s.empty;}window._lg=async function(){try{var r=await signInWithPopup(auth,gprov);var ok=await chkWL(r.user.email);if(ok){document.getElementById("loginPage").style.display="none";document.getElementById("selPage").style.display="flex";}else{document.getElementById("loginErr").style.display="block";auth.signOut();}}catch(e){console.error(e);}};onAuthStateChanged(auth,async function(u){if(u){var ok=await chkWL(u.email);if(ok){document.getElementById("loginPage").style.display="none";document.getElementById("selPage").style.display="flex";}}});
+</script>
+</head>
+<body>
+<div id="loginPage" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;background:linear-gradient(135deg,#f0ece4,#e8f7f1);padding:20px"><div style="background:#fff;border-radius:16px;border:1px solid #e0ddd5;padding:36px 40px;max-width:400px;width:100%;box-shadow:0 4px 24px rgba(0,0,0,.07);text-align:center"><div style="font-size:36px;margin-bottom:12px">&#128218;</div><div style="font-size:20px;font-weight:700;color:#1a1a18;margin-bottom:6px">Đề 2020-1</div><div style="font-size:13px;color:#999;margin-bottom:24px">&#272;&#259;ng nh&#7853;p &#273;&#7875; v&#224;o h&#7885;c</div><button onclick="_lg()" style="width:100%;padding:13px;background:#fff;color:#444;border:1.5px solid #ddd;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:10px"><img src="https://www.google.com/favicon.ico" width="18"> &#272;&#259;ng nh&#7853;p b&#7857;ng Google</button><div id="loginErr" style="display:none;margin-top:12px;color:#993C1D;font-size:12px">T&#224;i kho&#7843;n ch&#432;a &#273;&#432;&#7907;c &#273;&#259;ng k&#253;. Li&#234;n h&#7879; gi&#225;o vi&#234;n!</div></div></div><div id="selPage" style="display:none"><div class="sel-card"><div class="sel-exam-title">&#272;&#7873; thi TOEIC Reading</div><div class="sel-main-title">Đề 2020-1</div><div class="sel-sub">Ch&#7885;n ph&#7847;n b&#224;i l&#224;m, sau &#273;&#243; b&#7845;m B&#7855;t &#273;&#7847;u</div><div class="sel-opt on" data-p="full" onclick="toggleSel(this)"><div class="chk"><span class="chkm">&#10003;</span></div><div><div class="opt-name">Luy&#7879;n full Part 5 &#8211; 6 &#8211; 7</div><div class="opt-range">C&#226;u 101 &#8594; 200 &nbsp;&#183;&nbsp; 100 c&#226;u</div></div></div><div class="sel-opt" data-p="p5" onclick="toggleSel(this)"><div class="chk"><span class="chkm">&#10003;</span></div><div><div class="opt-name">Luy&#7879;n Part 5 &#8212; Incomplete Sentences</div><div class="opt-range">C&#226;u 101 &#8594; 130 &nbsp;&#183;&nbsp; 30 c&#226;u</div></div></div><div class="sel-opt" data-p="p6" onclick="toggleSel(this)"><div class="chk"><span class="chkm">&#10003;</span></div><div><div class="opt-name">Luy&#7879;n Part 6 &#8212; Text Completion</div><div class="opt-range">C&#226;u 131 &#8594; 146 &nbsp;&#183;&nbsp; 16 c&#226;u</div></div></div><div class="sel-opt" data-p="p7" onclick="toggleSel(this)"><div class="chk"><span class="chkm">&#10003;</span></div><div><div class="opt-name">Luy&#7879;n Part 7 &#8212; Reading Comprehension</div><div class="opt-range">C&#226;u 147 &#8594; 200 &nbsp;&#183;&nbsp; 54 c&#226;u</div></div></div><button class="sel-btn" onclick="startExam()">&#9654; B&#7855;t &#273;&#7847;u l&#224;m b&#224;i</button></div></div><div id="examPage" style="display:none"><div class="pdf-pn"><iframe id="pdfFrame" src="" allowfullscreen></iframe></div><div class="side-pn"><div class="tmr-wrap" id="tmrWrap"><div class="ttabs"><div class="ttab on" id="tab1" onclick="setMode(1)">&#9201; &#272;&#7871;m l&#234;n</div><div class="ttab" id="tab2" onclick="setMode(2)">&#9203; &#272;&#7871;m ng&#432;&#7907;c</div></div><div class="tdisp" id="tdisp">00:00</div><div class="cd-row" id="cdRow"><span>Thời gian:</span><select id="minIn"><option value="5">5 phút</option><option value="10">10 phút</option><option value="15">15 phút</option><option value="20">20 phút</option><option value="25">25 phút</option><option value="30">30 phút</option><option value="35">35 phút</option><option value="40">40 phút</option><option value="45">45 phút</option><option value="50">50 phút</option><option value="55">55 phút</option><option value="60">60 phút</option><option value="65">65 phút</option><option value="70">70 phút</option><option value="75" selected>75 phút</option></select></div><button class="tbtn go" id="tBtn" onclick="timerAction()">B&#7855;t &#273;&#7847;u</button></div><div class="res-wrap" id="resWrap"></div><div class="nav-bar"><button class="nav-btn" onclick="goHome()">&#127968; Ch&#7885;n &#273;&#7873;</button><button class="nav-btn" onclick="goSel()">&#9654; Ch&#7885;n Part</button></div><div class="filter-bar"><button class="fbtn on" id="fAll" onclick="setFilter('all')">T&#7845;t c&#7843;</button><button class="fbtn" id="fUndone" onclick="setFilter('undone')">&#9898; Ch&#432;a l&#224;m</button><button class="fbtn" id="fStar" onclick="setFilter('star')">&#9733; &#272;&#225;nh d&#7845;u</button></div><div class="sheet-wrap" id="sheetWrap"></div><div class="sub-wrap"><button class="sub-btn" id="subBtn" onclick="askSubmit()">N&#7897;p b&#224;i</button></div></div></div><div class="ovl" id="rOvl"><div class="rbox" id="rBox"></div></div><div class="ovl" id="cOvl"><div class="cbox"><div class="cbox-icon">&#128221;</div><div class="cbox-title">N&#7897;p b&#224;i?</div><div class="cbox-sub" id="cSub">B&#7841;n c&#243; ch&#7855;c mu&#7889;n n&#7897;p b&#224;i kh&#244;ng?</div><div class="cbox-btns"><button class="ccancel" onclick="closeConfirm()">L&#224;m ti&#7871;p</button><button class="cok" onclick="doSubmit()">N&#7897;p b&#224;i</button></div></div></div><div class="ovl" id="toOvl"><div class="tobox"><div class="tobox-icon">&#9200;</div><div class="tobox-title">H&#7871;t gi&#7901;!</div><div class="tobox-sub">Th&#7901;i gian l&#224;m b&#224;i &#273;&#227; k&#7871;t th&#250;c. B&#224;i &#273;&#227; &#273;&#432;&#7907;c t&#7921; &#273;&#7897;ng n&#7897;p.</div><button class="tobox-btn" onclick="closeTo()">Xem k&#7871;t qu&#7843;</button></div></div><div class="toast" id="toast"><div class="toast-box"><div id="toastTxt"></div></div></div>
+<script>
+(function(){
+var A=["A","A","D","D","A","A","B","C","D","B","C","B","B","A","D","D","C","D","C","C","A","B","B","C","D","A","A","D","A","B","B","C","A","D","D","C","A","B","A","C","A","B","B","A","D","D","C","A","C","C","B","D","B","B","D","C","B","A","B","B","C","B","D","D","B","C","A","D","C","A","B","D","B","A","B","C","A","D","B","D","A","A","C","C","B","C","C","B","C","A","A","B","D","D","C","B","A","D","C","B"];
+var PDFURL="https://docs.google.com/viewer?url=https%3A%2F%2Fde-reading.pages.dev%2Ftoeic-2020-1.pdf&embedded=true";
+var P5={"101":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=0s"},"102":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=89s"},"103":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=150s"},"104":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=236s"},"105":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=303s"},"106":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=426s"},"107":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=439s"},"108":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=575s"},"109":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=596s"},"110":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=695s"},"111":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=734s"},"112":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=780s"},"113":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=886s"},"114":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1005s"},"115":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1137s"},"116":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1265s"},"117":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1429s"},"118":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1502s"},"119":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1585s"},"120":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1695s"},"121":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1786s"},"122":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1837s"},"123":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=1924s"},"124":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2085s"},"125":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2167s"},"126":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2302s"},"127":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2391s"},"128":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2489s"},"129":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2565s"},"130":{"name":"Video giải","link":"https://www.youtube.com/watch?v=4UaiHWVqVtg&t=2655s"}};
+var P6={"131":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=7"},"132":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=125"},"133":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=264"},"134":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=305"},"135":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=356"},"136":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=507"},"137":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=705"},"138":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=636"},"139":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=765"},"140":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=906"},"141":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=1013"},"142":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=991"},"143":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=1075"},"144":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=1127"},"145":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=1199"},"146":{"name":"Video giải","link":"https://youtu.be/GoRXOteL02g?t=1341"}};
+var P7=[{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=23"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=202"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=344"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=623"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=809"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=1107"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=1261"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=1453"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=1649"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=1861"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=2087"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=2245"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=2448"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=2605"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=2709"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=2904"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=3091"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=3357"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=3465"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=3628"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=3841"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=3964"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4143"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4286"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4421"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4535"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4940"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4758"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=4847"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=5169"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=5342"},{"name":"Video giải","link":"https://youtu.be/BjNbpbtssmQ"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=5491"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=5875"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=5994"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=6218"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=6363"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=6581"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=6769"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=6955"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7050"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7157"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7237"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7380"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7442"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7607"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7825"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7880"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=7935"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=8173"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=8329"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=8356"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=8510"},{"name":"Video giải","link":"https://youtu.be/1z-Nva__Ii0?t=8615"}];
+var chosen=new Set(["full"]);
+var sQ=101,eQ=200,tMode=1,tRun=false,tSec=0,tInt=null,tStart=null;
+var done=false,warned=false,uAns={},stars=new Set(),filt="all";
+if(location.protocol==="file:"){document.getElementById("loginPage").style.display="none";document.getElementById("selPage").style.display="flex";}
+window.toggleSel=function(el){
+  var p=el.dataset.p;
+  if(p==="full"){if(chosen.has("full")){chosen.clear();}else{chosen.clear();chosen.add("full");}}
+  else{chosen.delete("full");if(chosen.has(p)){chosen.delete(p);}else{chosen.add(p);}
+    if(chosen.has("p5")&&chosen.has("p6")&&chosen.has("p7")){chosen.clear();chosen.add("full");}}
+  document.querySelectorAll(".sel-opt").forEach(function(o){
+    o.classList.toggle("on",o.dataset.p==="full"?chosen.has("full"):(chosen.has("full")||chosen.has(o.dataset.p)));
+  });
+};
+window.startExam=function(){
+  var ac=chosen.has("full")?new Set(["p5","p6","p7"]):chosen;
+  var s=999,e=0;
+  if(ac.has("p5")){s=Math.min(s,101);e=Math.max(e,130);}
+  if(ac.has("p6")){s=Math.min(s,131);e=Math.max(e,146);}
+  if(ac.has("p7")){s=Math.min(s,147);e=Math.max(e,200);}
+  if(s>e){alert("Vui lòng chọn ít nhất một phần!");return;}
+  sQ=s;eQ=e;
+  document.getElementById("selPage").style.display="none";
+  document.getElementById("examPage").style.display="flex";
+  document.getElementById("pdfFrame").src=PDFURL;
+  buildSheet();
+};
+window.goSel=function(){
+  document.getElementById("rOvl").classList.remove("show");
+  document.getElementById("examPage").style.display="none";
+  done=false;warned=false;uAns={};stars.clear();filt="all";
+  tSec=0;tRun=false;tStart=null;
+  if(tInt){clearInterval(tInt);tInt=null;}
+  document.getElementById("tmrWrap").style.display="";
+  document.getElementById("resWrap").style.display="none";
+  document.getElementById("subBtn").style.display="";
+  document.getElementById("tdisp").textContent="00:00";
+  document.getElementById("tdisp").className="tdisp";
+  document.getElementById("tBtn").textContent="Bắt đầu";
+  document.getElementById("tBtn").className="tbtn go";
+  setMode(1);
+  document.getElementById("selPage").style.display="flex";
+};
+window.goHome=function(){window.location.href="https://ets-reading.pages.dev/";};
+function buildSheet(){
+  var sw=document.getElementById("sheetWrap");sw.innerHTML="";
+  [{l:"Part 5 (101-130)",s:101,e:130},{l:"Part 6 (131-146)",s:131,e:146},{l:"Part 7 (147-200)",s:147,e:200}].forEach(function(pt){
+    var ps=Math.max(pt.s,sQ),pe=Math.min(pt.e,eQ);if(ps>pe)return;
+    var sep=document.createElement("div");sep.className="psep";sep.textContent=pt.l;sw.appendChild(sep);
+    for(var q=ps;q<=pe;q++)(function(qq){
+      var bl=document.createElement("div");bl.className="qblock";bl.id="bl"+qq;
+      var row=document.createElement("div");row.className="qrow";row.id="row"+qq;
+      var qn=document.createElement("div");qn.className="qn";qn.textContent=qq;row.appendChild(qn);
+      ["A","B","C","D"].forEach(function(o){
+        var b=document.createElement("div");b.className="opt";b.textContent=o;
+        b.dataset.q=qq;b.dataset.o=o;
+        b.onclick=function(){pick(qq,o);};
+        row.appendChild(b);
+      });
+      var st=document.createElement("div");st.className="star";st.innerHTML="&#9733;";
+      st.onclick=function(){stars.has(qq)?stars.delete(qq):stars.add(qq);st.classList.toggle("on",stars.has(qq));applyFilt();};
+      row.appendChild(st);
+      var vr=document.createElement("div");vr.id="vr"+qq;
+      row.appendChild(vr);
+      bl.appendChild(row);sw.appendChild(bl);
+    })(q);
+  });
+}
+function pick(q,o){if(done)return;uAns[q]=o;document.getElementById("row"+q).querySelectorAll(".opt").forEach(function(b){b.classList.toggle("sel",b.dataset.o===o);});applyFilt();}
+window.setFilter=function(f){filt=f;document.getElementById("fAll").classList.toggle("on",f==="all");document.getElementById("fUndone").classList.toggle("on",f==="undone");document.getElementById("fStar").classList.toggle("on",f==="star");document.getElementById("fStar").classList.toggle("ston",f==="star");applyFilt();};
+function applyFilt(){for(var q=sQ;q<=eQ;q++){var b=document.getElementById("bl"+q);if(!b)continue;b.classList.toggle("hidden",filt==="undone"?!!uAns[q]:filt==="star"?!stars.has(q):false);}}
+window.setMode=function(m){tMode=m;document.getElementById("tab1").classList.toggle("on",m===1);document.getElementById("tab2").classList.toggle("on",m===2);document.getElementById("cdRow").style.display=(m===2&&!tRun)?"flex":"none";if(tRun)stopT();tSec=0;updD();document.getElementById("tdisp").classList.remove("warn");document.getElementById("tBtn").textContent="Bắt đầu";document.getElementById("tBtn").className="tbtn go";};
+window.timerAction=function(){tRun?stopT():startT();};
+function startT(){tRun=true;warned=false;tStart=Date.now();if(tMode===2){tSec=parseInt(document.getElementById("minIn").value||75)*60;document.getElementById("cdRow").style.display="none";}document.getElementById("tBtn").textContent="Dừng";document.getElementById("tBtn").className="tbtn stop";tInt=setInterval(function(){if(tMode===1){tSec++;}else{tSec--;if(tSec===60&&!warned){warned=true;showToast("Còn 1 phút — Kiểm tra lại bài!",3000);}if(tSec<=60)document.getElementById("tdisp").classList.add("warn");if(tSec<=0){clearInterval(tInt);tRun=false;document.getElementById("toOvl").classList.add("show");doSubmit();return;}}updD();},1000);}
+function stopT(){clearInterval(tInt);tRun=false;document.getElementById("tBtn").textContent="Bắt đầu";document.getElementById("tBtn").className="tbtn go";if(tMode===2&&!done)document.getElementById("cdRow").style.display="flex";}
+function updD(){document.getElementById("tdisp").textContent=fmt(Math.abs(tSec));}
+function fmt(s){return String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0");}
+function getEl(){return tStart?Math.floor((Date.now()-tStart)/1000):tSec;}
+window.closeTo=function(){document.getElementById("toOvl").classList.remove("show");};
+window.askSubmit=function(){if(done)return;var tot=eQ-sQ+1,an=0;for(var q=sQ;q<=eQ;q++){if(uAns[q])an++;}var left=tot-an;document.getElementById("cSub").textContent=left>0?"Còn "+left+" câu chưa trả lời. Bạn có chắc muốn nộp không?":"Bạn đã trả lời đủ "+tot+" câu. Xác nhận nộp bài?";document.getElementById("cOvl").classList.add("show");};
+window.closeConfirm=function(){document.getElementById("cOvl").classList.remove("show");};
+window.doSubmit=function(){
+  document.getElementById("cOvl").classList.remove("show");
+  if(done)return;done=true;if(tRun)stopT();
+  filt="all";applyFilt();
+  var el=getEl(),correct=0,total=0;
+  for(var q=sQ;q<=eQ;q++){
+    total++;var ans=A[q-101];var user=uAns[q];
+    if(user===ans)correct++;
+    var row=document.getElementById("row"+q);
+    if(row){
+      row.querySelectorAll(".opt").forEach(function(b){var o=b.dataset.o;b.classList.add("done");if(o===ans&&user===ans)b.classList.add("correct");else if(o===user&&user!==ans)b.classList.add("wrong");else if(o===ans&&user!==ans)b.classList.add("hint");});
+      (function(qq){var vr=document.getElementById("vr"+qq);if(!vr)return;
+        function av(lnk,nm){var b=document.createElement("button");b.className="vbtn";b.textContent=nm;b.onclick=function(){pv(lnk);};vr.appendChild(b);}
+        if(P5[qq])av(P5[qq].link,P5[qq].name);
+        if(P6[qq])av(P6[qq].link,P6[qq].name);
+        if(qq>=147&&P7[qq-147]&&P7[qq-147].link)av(P7[qq-147].link,P7[qq-147].name);
+      })(q);
+    }
+  }
+  document.getElementById("tmrWrap").style.display="none";
+  var rw=document.getElementById("resWrap");rw.style.display="block";
+  rw.innerHTML="<div class=\"res-head\">Kết quả bài làm</div>"
+    +"<div class=\"rrow\"><span class=\"rl\">Thời gian</span><span class=\"rv\">"+fmt(el)+"</span></div>"
+    +"<div class=\"rrow\"><span class=\"rl\">Số câu đúng</span><span class=\"rv\">"+correct+" / "+total+"</span></div>";
+  document.getElementById("subBtn").style.display="none";
+  showResult(correct,total,el);
+};
+function fmtList(o){var r="";if(o.p5.length)r+="<b>Part 5:</b> "+o.p5.join(", ")+"<br>";if(o.p6.length)r+="<b>Part 6:</b> "+o.p6.join(", ")+"<br>";if(o.p7.length)r+="<b>Part 7:</b> "+o.p7.join(", ")+"<br>";return r||"Không có";}
+function showResult(correct,total,el){
+  var wrong={p5:[],p6:[],p7:[]},una={p5:[],p6:[],p7:[]};
+  for(var q=sQ;q<=eQ;q++){var ans=A[q-101];var user=uAns[q];var pt=q<=130?"p5":q<=146?"p6":"p7";if(!user)una[pt].push(q);else if(user!==ans)wrong[pt].push(q);}
+  var wA=wrong.p5.concat(wrong.p6).concat(wrong.p7),uA=una.p5.concat(una.p6).concat(una.p7),score=correct*5;
+  window._wd=wrong;window._ud=una;
+  function mk(tag,cls,txt){var d=document.createElement(tag);if(cls)d.className=cls;if(txt!==undefined)d.textContent=txt;return d;}
+  var box=document.getElementById("rBox");box.innerHTML="";
+  var hdr=mk("div","rb-hdr");hdr.appendChild(mk("div","rb-icon")).textContent="🏆";hdr.appendChild(mk("div","rb-title",document.title));hdr.appendChild(mk("div","rb-sub","Thời gian: "+fmt(el)));box.appendChild(hdr);
+  var grid=mk("div","rb-grid");
+  function mkS(cls,n,lbl){var d=mk("div","rb-stat "+cls);d.appendChild(mk("div","rb-stat-n",String(n)));d.appendChild(mk("div","rb-stat-l",lbl));return d;}
+  grid.appendChild(mkS("green",correct,"✅ Câu đúng"));
+  grid.appendChild(mkS("orange",score,"🌟 Điểm TOEIC"));
+  grid.appendChild(mkS("red",wA.length,"❌ Câu sai"));
+  var ds=mkS("",uA.length,"⚪ Chưa làm");ds.querySelector(".rb-stat-n").style.color="#888";grid.appendChild(ds);
+  box.appendChild(grid);
+  if(wA.length){var wb=mk("div","rb-lb wrong");wb.innerHTML="<div class=\"rb-lt\">📝 Câu sai</div><div class=\"rb-lc\">"+fmtList(wrong)+"</div>";box.appendChild(wb);}
+  if(uA.length){var ub=mk("div","rb-lb una");ub.innerHTML="<div class=\"rb-lt\">⚠ Chưa làm</div><div class=\"rb-lc\">"+fmtList(una)+"</div>";box.appendChild(ub);}
+  var br=mk("div","rb-btns");
+  var bc=mk("button","rb-close","✖ Đóng");bc.onclick=function(){document.getElementById("rOvl").classList.remove("show");};
+  var bs=mk("button","rb-save","⬇ Lưu kết quả");(function(c,t,s,e){bs.onclick=function(){saveRes(c,t,s,e,window._wd,window._ud);};})(correct,total,score,el);
+  br.appendChild(bc);br.appendChild(bs);box.appendChild(br);
+  document.getElementById("rOvl").classList.add("show");
+}
+window.saveRes=function(correct,total,score,el,wrong,una){
+  function ft(o){var r="";if(o.p5.length)r+="- Part 5: "+o.p5.join(", ")+"\n";if(o.p6.length)r+="- Part 6: "+o.p6.join(", ")+"\n";if(o.p7.length)r+="- Part 7: "+o.p7.join(", ")+"\n";return r||"Khong co\n";}
+  var txt="KET QUA TOEIC\n================\nDe thi: "+document.title+"\nThoi gian: "+fmt(el)+"\n\nSo cau dung: "+correct+"/"+total+"\nDiem: "+score+"\n\n--- CAU SAI ---\n"+ft(wrong)+"--- CHUA LAM ---\n"+ft(una)+"================\nGHI CHU:\n\n\n";
+  var b=new Blob([txt],{type:"text/plain;charset=utf-8"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="KetQua-"+document.title.replace(/\s+/g,"-")+".txt";document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(a.href);
+};
+function pv(url){var yt=url.match(/(?:youtu\.be\/|v=)([\w-]{11})/);var gd=url.match(/\/file\/d\/([^\/]+)/);var t=url.match(/[?&]t=([0-9]+)/);var src=yt?"https://www.youtube-nocookie.com/embed/"+yt[1]+"?autoplay=1"+(t?"&start="+t[1]:""):gd?"https://drive.google.com/file/d/"+gd[1]+"/preview":url;document.getElementById("pdfFrame").src=src;}
+function showToast(txt,ms){document.getElementById("toastTxt").textContent=txt;var o=document.getElementById("toast");o.classList.add("show");setTimeout(function(){o.classList.remove("show");},ms);}
+})();
+</script>
+</body>
+</html>
